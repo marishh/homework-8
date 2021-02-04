@@ -360,3 +360,8 @@ footer{
 	margin-right: 30px;
 	margin-bottom: 40px;
 }
+.buttons{
+	display: flex;
+	width: 150px;
+	justify-content: space-between;
+}
