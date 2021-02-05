@@ -49,15 +49,25 @@ ul{
 /*SECTION 1*/
 .s1{
 	background-color: #E6E6E6;
-	width: 100%;
 	padding-top: 30px;
 	padding-bottom: 30px;
 	justify-content: center;
 }
 .img0{
-	width: 1170px;
+	max-width: 1170px;
+	width: 80%;
 	margin: 0 auto;
 	position: relative;
+}
+/*.img0{
+	background-image: url(../images/0.jpg);
+	max-width: 1170px;
+	width: 80%;
+	margin: 0 auto;
+	position: relative;
+}*/
+.img0 img{
+	width: 100%;
 }
 .text0{
 	position: absolute;
@@ -68,8 +78,11 @@ ul{
 	font-family: 'Roboto b';
 }
 .html2{
+	width: 100%;
+}
+.box0{
+	width: 100px;
 	height: 30px;
-	width: auto;
 	position: absolute;
 	bottom: 30px;
 	right: 30px;
