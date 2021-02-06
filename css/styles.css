@@ -27,13 +27,42 @@ body{
 	padding-top: 80px;
 }
 ul{
+	width: 420px;
 	display: -webkit-box;
 	display: -ms-flexbox;
 	display: flex;
 	-webkit-box-pack: justify;
 	    -ms-flex-pack: justify;
 	        justify-content: space-between;
-	width: 410px;
+	
+}
+.menu{
+	display: none;
+	font-size: 30px;
+	color: #a8323e;
+}
+
+.logoo img{
+	width: 100%;
+}
+.mom{
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-pack: distribute;
+	    justify-content: space-around;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+}
+.divv,.test-1{
+	width: 60%;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: justify;
+	    -ms-flex-pack: justify;
+	        justify-content: space-between;
 }
 
 .l{
@@ -197,9 +226,14 @@ ul{
 /*section 4*/
 .s4{
 	background-color: #E6E6E6;
-	width: 100%;
 	padding-top: 28px;
 	padding-bottom: 30px;
+}
+.img1{
+	width: 22%;
+}
+.img1 img{
+	width: 100%;
 }
 .text03{
 	color: #000000;
@@ -225,27 +259,29 @@ ul{
     font-family: 'Roboto r';
     padding-top: 11px;
     padding-left: 20.8px;
-    margin-bottom: 12.7px;
+    margin-bottom: 17.7px;
 }
 .par{
 	color: #333333;
 	font-size: 20px;
 	font-family: 'Roboto r';
-	width: 350px;
+	max-width: 350px;
+	width: 70%;
 }
 .par2{
 	color: #333333;
 	font-size: 20px;
 	font-family: 'Roboto r';
-	width: 330px;
+	max-width: 330px;
+	width: 70%;
 }
 .text0032{
 	color: #3D58A6;
 	font-size: 22px;
     font-family: 'Roboto r';
-    padding-top: 11px;
-    padding-left: 20.8px;
+    margin-left: 20.8px;
     margin-bottom: 21.3px;
+    padding-top: 11px;
 }
 .read{
 	display: -webkit-box;
@@ -255,12 +291,22 @@ ul{
 	    -ms-flex-pack: end;
 	        justify-content: flex-end;
 }
+.read1{
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: end;
+	    -ms-flex-pack: end;
+	        justify-content: flex-end;
+	margin-top: 20px;
+}
+
 .text0003{
 	color: #3D58A6;
 	font-size: 14px;
     font-family: 'Roboto r';
-    padding-bottom: 14.6px;
-    padding-right: 9px;
+    margin-bottom: 14.6px;
+    margin-right: 9px;
 }
 /*footer*/
 .foot{
